@@ -1,0 +1,70 @@
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.nav {
+  background-color: #fef7e2;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.btn-container-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-btns {
+  background-color: #ffdf7f;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #6a4400;
+  text-decoration: none;
+  display: flex;
+
+  align-items: center;
+  margin: 10px;
+  width: 80%;
+  max-width: 250px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  justify-content: space-between;
+}
+
+.shop-btn {
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 20px 30px;
+  font-size: 28px;
+  border-radius: 60px;
+  max-width: 300px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  margin-right: 15px;
+}
