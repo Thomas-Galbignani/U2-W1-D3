@@ -61,6 +61,7 @@ body {
   font-size: 28px;
   border-radius: 60px;
   max-width: 300px;
+  justify-content: center;
 }
 
 .logo {
